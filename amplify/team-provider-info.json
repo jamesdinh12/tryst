@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tryst-staging-20141-authRole",
+      "UnauthRoleArn": "arn:aws:iam::281980788674:role/amplify-tryst-staging-20141-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::281980788674:role/amplify-tryst-staging-20141-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-tryst-staging-20141-deployment",
+      "UnauthRoleName": "amplify-tryst-staging-20141-unauthRole",
+      "StackName": "amplify-tryst-staging-20141",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:281980788674:stack/amplify-tryst-staging-20141/b9ec4870-908a-11ed-98b2-0a799e634ccc",
+      "AmplifyAppId": "dz1x428bfxxa5"
+    },
+    "categories": {
+      "auth": {
+        "tryst8ede391d": {}
+      },
+      "api": {
+        "Tryst": {}
+      }
+    }
+  }
+}
