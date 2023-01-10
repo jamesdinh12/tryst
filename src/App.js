@@ -58,7 +58,7 @@ const App = ({ signOut }) => {
 
   return (
     <View className="App">
-      <Heading level={1}>My Notes App</Heading>
+      <Heading level={1}>Who are you?</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
         <Flex direction="row" justifyContent="center">
           <TextField
@@ -69,7 +69,7 @@ const App = ({ signOut }) => {
             variation="quiet"
             required
           />
-          <NumberField
+          <TextField
             name="age"
             placeholder="Age"
             label="Age"
@@ -94,7 +94,7 @@ const App = ({ signOut }) => {
             <Text as="strong" fontWeight={700}>
               {note.name}
             </Text>
-            <Text as="span">{note.description}</Text>
+            <Text as="span">{note.age}</Text>
             <Button variation="link" onClick={() => deleteNote(note)}>
               Delete note
             </Button>
